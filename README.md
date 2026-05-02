@@ -36,7 +36,7 @@ pip install requests
 2. The client will generate a local URL containing your authentication parameters. Copy this URL (it will look similar to `http://localhost:49553/download/itemid/.../ott/...`).
 3. Run the Python script:
    ```bash
-   python ScourtDownloader.py
+   python3 ScourtDownloader.py
    ```
 4. Paste the URL into the terminal. The script will parse the tokens, contact the S-Court server, identify the file queue, and execute the download.
 5. The `ott` token is strictly single-use. If a download fails, you must generate a new link from the official client.
